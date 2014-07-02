@@ -7,13 +7,13 @@
 
 	//Quando for localhost faço algo
 	if ($dominio == "localhost") {
-		$corBackroundTable = "#ECECEC";
-		$corBackroundThead = "##BDD7FF";
+		$corBackgroundTable = "#ECECEC";
+		$corBackgroundThead = "#BDD7FF";
 		$corDasLetras= "#000";
 	}else{
 	//Quando for produção faço outra coisa
-		$corBackroundTable = "#FA858A";
-		$corBackroundThead = "##BDD7FF";
+		$corBackgroundTable = "#FA858A";
+		$corBackgroundThead = "#BDD7FF";
 		$corDasLetras= "#666";
 	}	
 ?>
@@ -33,10 +33,10 @@ table{
 	-webkit-box-shadow: 0 1px 2px #888;
 	box-shadow: 0 1px 2px #888;
 	border-radius: .3em;
-	background: <?php echo $corBackroundTable?>;
+	background: <?php echo $corBackgroundTable?>;
 	color: <?php echo $corDasLetras?>;
 }
 
 thead{
-	background: <?php echo $corBackroundThead?>;
+	background: <?php echo $corBackgroundThead?>;
 }
