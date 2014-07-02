@@ -2,7 +2,7 @@
 	//Header dizendo que é CSS
 	header("Content-type: text/css; charset: UTF-8");
 
-	//Diferenciando as Core da aplicação por dominio
+	//Diferenciando as cores da aplicação por dominio
 	$dominio= $_SERVER['HTTP_HOST'];
 
 	//Quando for localhost faço algo
