@@ -1,4 +1,4 @@
 Blog
 ====
 
-Repositório do Blog
+Repositório do exemplos do Blog
